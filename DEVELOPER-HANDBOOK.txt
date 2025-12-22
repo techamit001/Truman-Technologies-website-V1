@@ -1,0 +1,291 @@
+THE TRUMAN WEBSITE DEVELOPER HANDBOOK v1.0
+(Complete Design System + Layout Guide + Image Mapping + Technical Specs)
+________________________________________
+1. BRAND FOUNDATION
+1.1 Brand Identity
+Truman Technologies is positioned as:
+•	A next-gen consulting partner
+•	At the intersection of Talent + Technology + AI
+•	With strong enterprise credibility
+•	Clean, modern, minimal, and futuristic
+Everything in the design must respect:
+•	Clarity
+•	White space
+•	Gradient accents
+•	Global, AI-forward visuals
+________________________________________
+2. COLOR SYSTEM (FINAL + APPROVED)
+2.1 Primary Gradient (Use everywhere for brand identity)
+•	Aqua: #14F1E0
+•	Blue: #207BFF
+•	Violet: #7A2FFF
+Usage:
+•	Primary buttons
+•	Links + CTAs
+•	Icons + accents
+•	Section headers
+•	Highlight strokes
+Gradient direction:
+•	45° or 60° angle
+•	Aqua (start) → Blue (middle) → Violet (end)
+________________________________________
+2.2 Neutrals (Main palette for white-theme layout)
+•	White: #FFFFFF (Main background)
+•	Cloud Grey: #F3F5F7 (Section background)
+•	Midnight Navy: #0E1A2B (Headings / strong text)
+•	Charcoal: #1A1A1A (Body text)
+These neutrals ensure:
+•	Readability
+•	Corporate feel
+•	Clean UI
+________________________________________
+3. TYPOGRAPHY SYSTEM
+Headings: Poppins Semibold
+Weights:
+•	H1: 48–64px
+•	H2: 32–40px
+•	H3: 24–28px
+Body: Inter Regular
+Sizes:
+•	Body text: 16px
+•	Captions: 14px
+Buttons: Poppins Bold
+•	16–18px
+•	Uppercase optional
+________________________________________
+4. SPACING SYSTEM (8px GRID)
+All spacing MUST follow:
+•	8px increments only
+Examples:
+•	8px
+•	16px
+•	24px
+•	32px
+•	40px
+•	48px
+•	64px
+•	96px
+This ensures:
+•	Perfect alignment
+•	Clean structure
+•	Zero inconsistencies
+________________________________________
+5. COMPONENT SYSTEM
+5.1 Buttons
+Primary Button
+•	Background: Gradient
+•	Radius: 12px
+•	Padding: 14px 28px
+•	Text color: White
+•	Hover: brighter gradient + slight scale 1.02
+Secondary Button
+•	Background: White
+•	Border: 2px solid Blue (#207BFF)
+•	Radius: 12px
+•	Text: Blue (#207BFF)
+•	Hover: Blue text → gradient text + light shadow
+________________________________________
+5.2 Cards
+•	Background: White
+•	Radius: 18px
+•	Shadow: 0 8px 30px rgba(0,0,0,0.06)
+•	Padding: 32–40px
+•	Image placement: top or left
+•	Title: Poppins Semibold
+•	Body: Inter Regular
+________________________________________
+6. IMAGE POSITIONING GUIDE (FINAL)
+(This is the most important section for developers.)
+Below is exact placement of every image.
+________________________________________
+HERO SECTION
+Use Video:
+/mnt/data/BG New Truman website Video.mp4
+Implementation:
+•	Use as background hero video
+•	Add white overlay at 65% opacity
+•	Add blur of 4px
+•	Text must stay readable
+•	Keep video subtle, not distracting
+Use Logo: /mnt/data/New Logo.png
+•	Place top-left
+•	Sticky navigation
+•	On white background
+________________________________________
+ABOUT TRUMAN SECTION
+Use Image #21
+•	Doctors + world map + holographic UI
+•	Place left side
+•	Must have 15% white overlay (to soften neon colors)
+•	Border-radius: 24px
+•	Shadow: subtle (same as cards)
+________________________________________
+SERVICES OVERVIEW SECTION
+Each service block (like DeepSemi cards) gets its assigned image.
+Talent Solutions → Image #3
+IT Consulting → Image #5
+DevOps & Automation → Image #23
+AI-Driven Intelligence → Image #8
+Industry Solutions → Image #22
+All images:
+•	18px radius
+•	Full-width within card
+•	20–25% opacity overlay if neon
+________________________________________
+DETAILED SERVICE PAGES
+1. Talent Solutions — Image Mapping
+Primary:
+•	#3 (data wave)
+Sub-industry:
+•	Semiconductor → #2
+•	Retail/E-Commerce → #22
+•	Healthcare → #21
+Spacing:
+•	48px above section
+•	32px between blocks
+________________________________________
+2. IT Consulting — Image Mapping
+Primary:
+•	#5 (cloud + tech pipelines)
+Secondary:
+•	#23 (wave)
+•	#10 (command center team)
+________________________________________
+3. DevOps, Cloud & Automation
+Primary:
+•	#23
+Secondary:
+•	#26
+•	#8
+Use alternating layouts:
+•	Image left / text right
+•	Then text left / image right
+________________________________________
+4. Industry Solutions
+Assign this set:
+Industry	Image #
+Semiconductor	#2
+Healthcare	#21
+BFSI	#10
+Retail/E-Com	#22
+Manufacturing	#3
+Education	#23
+Telecom & 5G	#3
+Energy	#23
+Logistics	#3
+All industry images must:
+•	Be inside rounded (18px) white cards
+•	Have soft shadows
+________________________________________
+5. AI-Driven Intelligence Page
+Primary:
+•	#23
+Supporting:
+•	#3
+•	#8
+Overlay:
+•	20–30% white
+•	To reduce neon intensity
+________________________________________
+6. How We Work — The Truman Way
+Use:
+•	#10
+Placement:
+•	Full-width banner
+•	Darken with 35% navy overlay
+•	Headline in white
+________________________________________
+7. Why Truman
+Use:
+•	#3 (low opacity)
+Implementation:
+•	As faint background texture
+•	8% opacity
+•	Behind 6-card USP section
+________________________________________
+8. Contact Page
+Use:
+•	#24
+But adjust:
+•	White overlay 70%
+•	Blur: 6px
+•	So it blends softly behind content
+________________________________________
+7. LAYOUT SYSTEM (DeepSemi Style)
+7.1 General Layout
+•	Full-width sections
+•	Max container width: 1280px
+•	Left-right padding: 80px desktop / 24px mobile
+•	Plenty of white space
+________________________________________
+7.2 Hero Layout
+•	Full-screen height
+•	Text centered
+•	Overlay applied to video
+•	Buttons horizontally aligned
+________________________________________
+7.3 Section Layout
+Each main section:
+•	120px top spacing
+•	120px bottom spacing
+•	H2 heading
+•	24px body text
+•	Cards or image blocks below
+________________________________________
+7.4 Cards Layout
+•	Use grid: 3 columns (desktop), 1 column (mobile)
+•	32px gap
+________________________________________
+8. INTERACTION & ANIMATION GUIDELINES
+Hover States
+•	Buttons: slight scale, shadow, brightened gradient
+•	Cards: lift by 4px, stronger shadow
+•	Images: gentle zoom (1.02 scale)
+Scroll Animation
+•	Fade-up for each section
+•	150ms–300ms delay pattern
+________________________________________
+9. RESPONSIVENESS RULES
+Mobile
+•	Stack all cards 1-column
+•	Reduce padding to 16–24px
+•	Reduce video height to 40vh
+•	Hide heavy background visuals
+Tablet
+•	2-column grids
+•	32px padding
+Desktop
+•	3-cards layout
+•	Full animations
+________________________________________
+10. FINAL QA CHECKLIST (Developer Must Validate)
+Brand & Layout
+✔ Primary gradient applied consistently
+✔ Font weights accurate
+✔ 8px grid maintained everywhere
+✔ All images softened with overlays
+✔ Video loads fast + muted + loops
+Components
+✔ Buttons follow radius + gradient
+✔ Cards use correct radius + shadow
+✔ Typography hierarchy consistent
+Pages
+✔ Image-to-section mapping correct
+✔ White background clean and uncluttered
+✔ Neon images softened
+✔ Industry icons assigned correctly
+Tech
+✔ Mobile optimization
+✔ Lazy loading for heavy images
+✔ Video compressed & optimized
+✔ No layout shift
+✔ Global nav sticky
+________________________________________
+11. DELIVERABLES FOR DEVELOPER
+You will give your developer:
+1.	This Handbook (full instructions)
+2.	All images numbered 1–26
+3.	The hero video file
+4.	The Truman logo files
+5.	Audited website content
+6.	DeepSemi reference link

@@ -1,0 +1,46 @@
+TruDefender™ Section Summary (from Truman Technologies site)
+-------------------------------------------------------------
+
+**Tagline & Overview**
+"TruDefender™ — Defend. Detect. Dominate."
+"An AI-Driven Managed Detection & Response Platform"
+
+TruDefender™ is a 24×7 managed detection-and-response (MDR) platform that combines AI analytics, zero-trust access, and human SOC (Security Operations Center) expertise to detect and neutralize threats proactively. It provides enterprise-grade protection with startup agility and compliance awareness.
+
+**Purpose**
+Traditional security tools are mostly reactive. TruDefender delivers proactive, managed security that offers visibility, automation, and expert action.
+
+**Performance Metrics**
+- Mean Time to Detect: <15 minutes
+- Mean Time to Respond: <60 minutes
+- SOC Operations: 24×7 coverage
+
+**Workflow**
+1. Connect — Integrate with endpoints, cloud, email, identity, and network sources.
+2. Detect — AI and analysts turn alerts into actionable insights.
+3. Respond — Automated playbooks isolate, block, and remediate threats.
+4. Recover & Learn — Guided remediation and continuous improvement.
+
+**Compliance & Standards**
+Covers frameworks across major regions:
+
+- **United States:** NIST CSF & 800-171, SOC 2 Type II, HIPAA, CMMC Level 2, FedRAMP Moderate.
+- **India:** DPDP Act 2023, CERT-IN Guidelines 2022, ISO 27001:2022, CIS Controls v8.
+- **Middle East:** UAE NESA, Dubai DESC, Saudi NCA, Qatar QNIAP, ISO 27701.
+
+**Key Benefits**
+- 90% fewer false alerts.
+- 45% lower operational cost vs in-house SOC.
+- Global 24×7 coverage (India | UAE | USA).
+
+**Target Customers**
+Cloud-first enterprises, SMEs, regulated industries (Healthcare, BFSI, Government).
+
+**Core Capabilities**
+- Hybrid Intelligence (AI + Human Analysts)
+- Unified Dashboard
+- Plug-and-Protect Deployment
+- Continuous Learning & Compliance Tracking
+
+**CTA / Contact**
+Offers a “Schedule a Consultation” option and dedicated TruDefender contact link on the Truman Technologies site.

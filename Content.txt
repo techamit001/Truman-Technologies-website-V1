@@ -1,0 +1,628 @@
+TRUMAN TECHNOLOGIES — WEBSITE CONTENT (AUDITED)
+________________________________________
+HERO SECTION
+Modern Talent | Smarter Tech | AI-Driven Intelligence
+We help companies build high-performing teams, modernize their technology, and accelerate AI-led transformation.
+CTAs:
+🔵 Get Talent  ⚪ Explore Services
+________________________________________
+ABOUT TRUMAN TECHNOLOGIES
+Truman Technologies is a next-gen consulting partner built at the intersection of modern talent, smarter technology, and AI-driven intelligence.
+We help organizations scale faster, innovate deeper, and stay ahead in a world where digital and AI evolution never slows down.
+Our team blends strategy, engineering, and domain expertise to help you build strong teams, modern systems, and intelligent operations that support long-term growth.
+We don’t just adapt to the future —we help create it.
+________________________________________
+VISION
+To empower organizations with modern talent, intelligent engineering, and AI-driven innovation that shapes the future of work and technology.
+MISSION
+To help companies scale smarter by delivering exceptional talent, modern solutions, and continuous transformation through strategy, technology, and human expertise.
+________________________________________
+WHAT WE DO
+Talent Solutions That Deliver
+Your next great hire shouldn’t rely on chance.
+We blend human expertise + AI intelligence to deliver exceptional tech, business, and clinical talent — fast.
+Core Capabilities
+Software & Engineering: Full-stack, Java, .NET, mobile, architecture
+Data & Analytics: SQL, DW/ETL, BI, modeling
+Cloud & Infrastructure: AWS, Azure, GCP engineering
+DevOps & SRE: CI/CD, Kubernetes, IaC, reliability
+AI, ML & Data Science: MLOps, modeling, AI engineering
+Cybersecurity: SOC, SIEM, IAM, vulnerability
+Quality Engineering: Automation, manual, performance
+Networking & Systems: Network, LAN/WAN, sysadmin
+Business & Enterprise: PMO, Scrum, Product, GRC, Finance
+Healthcare & Clinical: Nursing, allied health, clinical ops
+Industrial & Skilled Trades: Operators, welders, logistics, trades
+Specialized Talent for Emerging Industries
+Semiconductor: ASIC/RTL, FPGA, DV, VLSI, Embedded.
+Telecom & 5G: OSS/BSS, RF, Network Engineering, 5G Core/RAN.
+Industrial Automation: PLC/SCADA, Robotics, Controls.
+Energy & Utilities: Smart grid, SCADA, field ops, renewable tech.
+Recruitment Models
+Contract Staffing — On-demand specialists for peak workloads.
+Direct Hire — Full-cycle hiring for permanent roles.
+Executive Search — High-touch leadership recruitment.
+RPO — Embedded talent engine for ongoing hiring.
+Project Teams — Ready-to-deploy pods across engineering, cloud, QA, automation and more.
+We don’t just fill roles — we build teams that transform businesses.
+________________________________________
+IT CONSULTING & MANAGED SERVICES
+Technology moves fast — we help you move faster.
+We deliver modern engineering, cloud transformation, automation, and operational support so your business stays resilient, scalable, and future-ready.
+Core Services
+Cloud Transformation: AWS, Azure, GCP migrations & modernization
+Enterprise Architecture: Modern apps, microservices, API ecosystems
+Data & AI Engineering: Pipelines, insights, automation, ML
+DevOps & Infra Automation: CI/CD, Kubernetes, IaC, SRE
+Digital Risk Advisory: Zero-trust, IAM, SIEM strategy
+24×7 Support: NOC/SOC L1, monitoring, infra/app maintenance
+Enterprise Platforms: Microsoft, Oracle, SAP, Salesforce
+We become your silent tech backbone — always on, always optimizing.
+________________________________________
+DEVOPS, CLOUD & AUTOMATION
+We help engineering teams ship faster, safer, smarter.
+What We Deliver
+CI/CD Pipelines — End-to-end automation for reliable delivery
+Infrastructure as Code — Terraform, Ansible, CloudFormation
+Cloud-Native Engineering — Kubernetes, containers, microservices
+SRE & Observability — Monitoring, reliability, fast recovery
+Agile Coaching — Improve velocity, reduce friction
+Performance Optimization — Fewer outages, happier users
+Because “it works on my machine” isn’t good enough anymore.
+________________________________________
+Industry-Specific Solutions
+Technology isn’t one-size-fits-all — your industry moves differently.
+Truman builds solutions tailored to how you operate, grow, and innovate.
+Technology & Software 
+Product engineering, cloud-native platforms, AI/ML solutions.
+Finance & Banking (BFSI)
+Fraud prevention, digital onboarding, compliance automation.
+Healthcare & Life Sciences
+EHR/EMR, telehealth, HIPAA-ready workflows, clinical analytics.
+Retail & E-Commerce
+Omnichannel analytics, personalization, demand forecasting.
+Manufacturing & Supply Chain
+IoT, predictive maintenance, ERP modernization.
+Education & EdTech
+LMS integration, digital assessments, learning analytics, Edu Staff.
+Semiconductor
+VLSI, ASIC/FPGA, DV, embedded systems, automation.
+Industrial & Engineering
+SCADA, automation, asset monitoring, field systems.
+Telecom & 5G
+Network engineering, OSS/BSS modernization, analytics.
+Logistics & Transportation
+Fleet management, routing analytics, digital logistics.
+Energy, CleanTech & Utilities
+Smart grid tech, compliance, digital infrastructure.
+Whatever your industry — we plug in innovation that sticks.
+________________________________________
+AI-DRIVEN INTELLIGENCE
+AI isn’t an add-on at Truman — it’s a foundational layer.
+We embed AI across talent, engineering, operations, and decision-making to help companies move smarter and faster.
+AI Across Truman
+Talent Intelligence: Matching, screening, insights
+Engineering Intelligence: Predictive monitoring, AIOps
+Business Intelligence: Analytics, automation, decision modeling
+Industry AI: Healthcare triage, fraud detection, CX insights, predictive ops
+We call it AI-driven intelligence — you’ll feel it in every engagement.
+________________________________________
+HOW WE WORK — THE TRUMAN WAY
+Initiate
+We dive deep into your goals, challenges, and strategy.
+Innovate
+We design solutions powered by AI, automation, and modern engineering.
+Implement
+We deliver scalable, reliable systems with speed + precision.
+Improve
+We continuously optimize using insights, analytics, and automation.
+We don’t just deliver — we evolve with you.
+________________________________________
+WHY TRUMAN
+Innovation on Tap
+AI + Cloud + Automation in every engagement.
+People-First Always
+Tech only works when people do.
+Speed + Precision
+Agile execution without compromise.
+Global Reach, Local Sense
+World-class engineering with client-first understanding.
+Partnership Over Project
+We don’t outsource — we build with you.
+The Truman Advantage
+Innovation that’s practical.
+Execution that’s precise.
+Talent that’s exceptional.
+Partnerships that last.
+________________________________________
+CONTACT US
+Let’s build what’s next — together.
+Whether you're scaling teams or modernizing technology, we're here to help.
+📩 hello@truman-technologies.com
+🌐 truman-technologies.com
+🔗 linkedin.com/company/trumantechnologies
+Truman Technologies — Built Different. Built for the Future.
+________________________________________
+
+SERVICE PAGE 1 — Talent Solutions
+Talent Solutions
+Build Teams That Build the Future
+Hiring shouldn’t feel like a gamble.
+Truman blends human expertise + AI-driven intelligence to help companies hire smarter, move faster, and scale confidently.
+We deliver exceptional talent across engineering, technology, operations, clinical care, and enterprise functions — tailored to your industry and growth stage.
+________________________________________
+What We Offer
+⭐ Technology & Engineering Talent
+Modern engineering talent for modern businesses.
+●	Full-Stack Developers (Java, .NET, Node, Python, React, Angular)
+●	Mobile App (iOS, Android, Flutter, React Native)
+●	Solution & Enterprise Architects
+●	Cloud Engineers (AWS, Azure, GCP)
+●	DevOps & SRE
+●	Automation Engineers
+●	AI/ML Engineers, Data Scientists, MLOps
+●	Cybersecurity & InfoSec
+●	QA Automation, Performance Testing
+●	Networking & Systems Engineering
+________________________________________
+⭐ Business, Digital & Enterprise Talent
+Talent that elevates strategy, execution, and operations.
+●	Project & Program Managers
+●	Scrum Masters, Product Managers
+●	Business Analysts & System Analysts
+●	GRC, Audit, Compliance, Risk
+●	Finance, Accounting, FP&A
+●	Marketing Operations, Digital Ops
+________________________________________
+⭐ Healthcare & Clinical Talent
+End-to-end healthcare workforce support.
+●	Registered Nurses
+●	Physicians & Specialists
+●	Allied Health Professionals
+●	Clinical Directors & Administrators
+●	Medical Operations & Support Teams
+________________________________________
+⭐ Retail, E-Com, Industrial, & Skilled Trades
+Workforce solutions for high-volume, high-impact operations.
+●	Retail & E-Commerce Ops
+●	Customer Support & Inside Sales
+●	Machine Operators, Assemblers, Welders
+●	Warehouse & Logistics Teams
+●	Electricians, Technicians & Skilled Trades
+________________________________________
+Specialized Talent for Emerging Industries
+For fast-growing sectors requiring hard-to-find engineering and domain specialists.
+⭐ Semiconductor Engineering Talent
+For chip design, automation, and embedded systems.
+●	ASIC / RTL / FPGA Development
+●	Design Verification (DV)
+●	VLSI Engineering
+●	Physical Design, DFT
+●	Embedded C/C++
+●	Verification Automation (Python, TCL, Perl, Verilog/SystemVerilog)
+●	Post-Silicon Validation
+●	Yield & Reliability Engineering
+________________________________________
+⭐Telecom & 5G Engineering Talent
+Supporting next-gen connectivity.
+●	OSS/BSS Engineering
+●	RF Engineering
+●	5G Core & RAN
+●	Network Optimization
+●	Telecom Cloud (NFV, SDN)
+●	VoIP, IMS, SIP
+●	Telecom DevOps & Automation
+________________________________________
+⭐Industrial & Automation Talent
+For factories, plants, robotics, and smart industrial operations.
+●	PLC/SCADA Engineers
+●	Robotics & Controls Engineers
+●	Instrumentation Engineers
+●	Automation Engineers
+●	Electrical/Mechanical Technicians
+●	CNC/Manufacturing Automation
+●	Field Services Engineering
+________________________________________
+⭐Energy, CleanTech & Utilities Talent
+For modern energy infrastructure and smart grid engineering.
+●	Smart Grid Engineers
+●	SCADA/ICS Engineers
+●	Energy Data Analysts
+●	Renewable Energy Technicians
+●	Utility Infrastructure Engineering
+●	Field Operations & Maintenance Teams
+________________________________________
+⭐Recruitment Models
+Your hiring needs, your way.
+Contract Staffing
+On-demand specialists for urgent needs, projects, and spikes.
+Direct Hire
+Full-cycle recruitment for permanent engineering, leadership, and business roles.
+Executive Search
+High-touch, confidential leadership hiring that shapes organizational culture.
+RPO
+Your own embedded recruiting team powered by Truman’s talent engine.
+Project-Based Talent Pods
+Pre-assembled tech teams — Dev, QA, Cloud, Data, PM — ready to deploy.
+________________________________________
+Why It Works
+We don’t just fill jobs — we build teams that transform businesses.
+________________________________________
+⭐ SERVICE PAGE 2 — IT Consulting & Managed Services
+IT Consulting & Managed Services
+Modern Engineering for a Modern World
+Technology evolves fast — your business should too.
+Truman delivers cloud, engineering, data, automation, and operational excellence so companies stay resilient and ready for what’s next.
+We serve as your strategy partner + engineering partner + always-on support team.
+________________________________________
+⭐ Cloud Transformation (AWS, Azure, GCP)
+Cloud built for speed, scale, and security.
+●	Cloud Migrations (applications, databases, infrastructure)
+●	Modernization & microservices redesign
+●	Hybrid & multi-cloud strategy
+●	Cloud-native engineering & automation
+●	FinOps & cost optimization
+●	Cloud governance & operating model
+________________________________________
+⭐ Enterprise Architecture & Modernization
+We design systems that help you move forward — fast.
+●	Legacy modernization
+●	API ecosystems & integration
+●	Platform engineering
+●	Performance tuning
+●	End-to-end architecture roadmaps
+●	Microservices & event-driven design
+________________________________________
+⭐ Data Engineering, AI & Intelligent Automation
+Make data your competitive advantage.
+●	Data lakes, warehouses, ETL/ELT pipelines
+●	Business intelligence dashboards
+●	ML model development
+●	Process automation (RPA + AI)
+●	Intelligent workflows
+●	Predictive analytics
+________________________________________
+⭐ DevOps & Infrastructure Automation
+Do more with less friction.
+●	CI/CD pipelines
+●	Kubernetes & container orchestration
+●	Infrastructure as Code
+●	Observability & monitoring
+●	Reliability engineering (SRE)
+●	Automated testing
+________________________________________
+⭐ Digital Risk Advisory (Non-MDR)
+Your compliance-ready security foundation.
+●	Zero Trust enablement
+●	IAM & access governance
+●	Vulnerability advisory
+●	SIEM configuration
+●	Risk management
+●	Cloud security posture
+(Note: TruDefender MDR launches 2026 as a separate product.)
+________________________________________
+⭐ 24×7 Infrastructure & Application Support
+Operations that don’t sleep.
+●	NOC & SOC L1 monitoring
+●	Network/server/database support
+●	Application maintenance
+●	Uptime SLAs & incident response
+●	Backup, DR, & continuity programs
+________________________________________
+⭐ Enterprise Applications
+End-to-end support for enterprise platforms.
+●	Microsoft (M365, Dynamics, Azure)
+●	SAP
+●	Oracle
+●	Salesforce
+●	Workday
+●	ServiceNow
+________________________________________
+⭐ Why Truman
+We’re the engineering layer that never slows down.
+Your silent backbone.
+Your innovation engine.
+Your transformation partner.
+________________________________________
+⭐ SERVICE PAGE 3 — DevOps, Cloud & Automation
+DevOps, Cloud & Automation
+Ship Faster. Scale Smarter. Operate Fearlessly.
+Great engineering isn’t about luck — it’s about systems.
+We help teams automate, optimize, and innovate across the entire software lifecycle.
+________________________________________
+⭐ CI/CD Pipeline Engineering
+Automation that accelerates everything.
+●	Build-test-deploy automation
+●	GitOps workflows
+●	Secure pipelines & quality gates
+●	Multi-environment orchestration
+●	Speed & reliability optimization
+________________________________________
+⭐ Infrastructure as Code
+Infra that builds itself.
+●	Terraform, Ansible, CloudFormation
+●	Environment automation
+●	Immutable infra
+●	Compliance automation
+●	Version-controlled systems
+________________________________________
+⭐ Cloud-Native Engineering
+Your apps, modernized.
+●	Kubernetes engineering
+●	Service mesh (Istio/Linkerd)
+●	Docker & container strategy
+●	Autoscaling & resilience
+●	Microservices platform setup
+________________________________________
+⭐ Site Reliability Engineering (SRE)
+Less downtime. More uptime.
+●	SLO/SLI frameworks
+●	Incident response + RCA
+●	Monitoring/observability
+●	Reliability automation
+●	Chaos engineering
+________________________________________
+⭐ Agile & Delivery Enablement
+Better teams, better shipping.
+●	Agile coaching
+●	Scrum/Kanban frameworks
+●	Delivery transformation
+●	Continuous improvement
+________________________________________
+⭐ Performance Monitoring & Optimization
+See everything. Fix everything.
+●	Full-stack observability
+●	Application & infra monitoring
+●	Alerting & dashboards
+●	Bottleneck identification
+________________________________________
+⭐ Why Truman
+Because “it works on my machine” doesn’t cut it anymore.
+________________________________________
+⭐ SERVICE PAGE 4 — Industry-Specific Solutions
+Industry-Specific Solutions
+Tech That Fits Your World — Not the Other Way Around
+Every industry evolves differently.
+Your technology, talent, and transformation strategy should too.
+Truman delivers industry-tailored solutions built around your operational reality, customer expectations, compliance needs, and growth ambitions.________________________________________
+⭐ Technology & Software Companies
+Engineering speed meets product innovation.
+●	Product development & modernization
+●	Cloud-native architecture
+●	Platform engineering
+●	QA automation
+●	DevOps, SRE & Platform Ops
+●	AI/ML engineering & data platforms
+________________________________________
+⭐ Finance & Banking (BFSI)
+Resilient, compliant, intelligent financial experiences.
+●	Fraud prevention & risk modeling
+●	Digital onboarding & KYC solutions
+●	Core system modernization
+●	Regulatory compliance automation
+●	Data governance & secure workflows
+●	FinTech engineering & integration
+
+________________________________________
+⭐ Healthcare & Life Sciences
+Digital health for a faster, safer, patient-first future.
+●	EHR/EMR integration & optimization
+●	Telehealth ecosystem development
+●	HIPAA-ready platforms
+●	Clinical analytics & reporting
+●	Healthcare automation & RCM support
+●	Staffing for clinical, IT & administrative roles
+________________________________________
+⭐ Retail & E-Commerce
+Modern retail powered by AI and customer intelligence.
+●	Omnichannel analytics & personalization
+●	Inventory intelligence & demand forecasting
+●	Digital commerce engineering
+●	Store operations automation
+●	CX optimization & loyalty systems
+________________________________________
+⭐ Manufacturing & Supply Chain
+Industry 4.0 built for resilience and efficiency.
+●	IoT & industrial sensors
+●	Predictive maintenance
+●	MES/ERP modernization
+●	Digital twins
+●	Logistics & operations analytics
+●	Workforce solutions for industrial roles
+________________________________________
+⭐ Education & EdTech
+Modern learning for the digital-first generation.
+●	LMS integration & platform engineering
+●	Digital assessments
+●	Student analytics & insights
+●	AI-driven tutoring & recommendation engines
+●	ERP & SIS modernization
+●	Staffing for academic, digital, and operational teams
+________________________________________
+⭐ Semiconductor Industry
+Engineering excellence for the world’s fastest-growing sector.
+●	VLSI, RTL, FPGA, and ASIC engineering
+●	Design verification & system validation
+●	Semiconductor automation frameworks
+●	Embedded systems engineering
+●	Yield, reliability & quality analytics
+●	Specialized semiconductor talent sourcing
+________________________________________
+⭐ Industrial & Engineering
+Tech that powers infrastructure, utilities, and heavy operations.
+●	SCADA & industrial control systems
+●	Field operations platforms
+●	Asset monitoring & predictive analytics
+●	Industrial automation pipelines
+●	Engineering workforce deployment
+________________________________________
+⭐ Telecom & 5G
+Powering the next wave of connectivity.
+●	OSS/BSS modernization
+●	Network engineering & optimization
+●	5G deployment support
+●	Telecom analytics
+●	Infra automation & DevOps for telcos
+●	Telecom-specific talent delivery
+________________________________________
+⭐ Logistics & Transportation
+Smart movement. Smart routing. Smart operations.
+●	Fleet management platforms
+●	Routing optimization
+●	Transportation analytics
+●	Last-mile automation
+●	Warehouse technology integration
+●	Logistics staffing & operations teams
+________________________________________
+⭐ Energy, CleanTech & Utilities
+Digital infrastructure for a sustainable, compliant world.
+●	Smart grid apps & monitoring
+●	Energy analytics & forecasting
+●	Compliance frameworks
+●	IoT devices & field systems
+●	Renewable energy systems & automation
+________________________________________
+Why Truman
+Whatever your industry, we plug in innovation that creates real, measurable, lasting impact.
+________________________________________
+⭐ SERVICE PAGE 5 — AI-Driven Intelligence
+AI-Driven Intelligence
+Intelligence That Enhances Everything
+AI isn’t a feature here — it’s a foundation.
+We infuse intelligence into how you hire, build, scale, and operate.
+________________________________________
+⭐ Talent Intelligence
+Smarter hiring from the inside out.
+●	AI-assisted candidate matching
+●	Screening automation
+●	Market + workforce analytics
+●	Skills graphing & prediction
+________________________________________
+⭐ Engineering Intelligence
+Systems that learn and evolve.
+●	AIOps
+●	Predictive monitoring
+●	Root-cause automation
+●	Reliability insights
+________________________________________
+⭐ Business Intelligence
+Insight-driven operations.
+●	Predictive forecasting
+●	AI-enhanced workflows
+●	Data-driven decisioning
+●	Intelligent dashboards
+________________________________________
+⭐ Industry AI
+AI that fits your market.
+●	Healthcare triage AI
+●	Fraud detection
+●	Customer behavior models
+●	Predictive supply chain
+________________________________________
+⭐ Why Truman
+AI is our multiplier — it amplifies everything we deliver.
+________________________________________
+⭐ SERVICE PAGE 6 — How We Work (Truman Way)
+How We Work
+The Truman Way: Initiate → Innovate → Implement → Improve
+A modern, intelligent, human approach to transformation.
+________________________________________
+⭐ Initiate
+We understand your world — goals, blockers, systems, and realities.
+Outcome: A strategic blueprint with measurable success metrics.
+________________________________________
+⭐ Innovate
+We design solutions powered by AI, automation, and modern engineering.
+Outcome: Future-ready architecture built for scale.
+________________________________________
+⭐ Implement
+We execute with precision, speed, and zero shortcuts.
+Outcome: Stable, scalable, secure systems delivered on time.
+________________________________________
+⭐ Improve
+We monitor, optimize, and evolve your ecosystem continuously.
+Outcome: Better performance, lower cost, and smarter operations.
+________________________________________
+⭐ Why It Works
+We don’t deliver and disappear — we partner and evolve with you.
+________________________________________
+⭐ SERVICE PAGE 7 — Why Truman
+Why Truman
+Your Partner for What’s Next
+⭐ Innovation on Tap
+AI + Cloud + Automation in every engagement.
+⭐ People-First Always
+Tech succeeds when people succeed.
+⭐ Speed + Precision
+Agile execution with engineering discipline.
+⭐ Global Capability, Local Understanding
+A model built for scale and proximity.
+⭐ Partnership Over Project
+We don’t outsource — we build with you.
+⭐ The Truman Advantage
+Modern thinking.
+Elite talent.
+Smart engineering.
+Intelligent transformation.
+This is Truman — Built different. Built for the future.
+________________________________________
+CONTACT US + Inquiry Form (Right Side)
+Let’s Build What’s Next — Together
+Whether you're scaling your workforce, modernizing your technology, or planning your next AI-driven transformation, Truman is ready to partner with you.
+We don’t just deliver talent or solutions —
+we help you unlock momentum.
+________________________________________
+⭐ Get in Touch
+Have a project in mind? Need to build a team? Want clarity on your tech roadmap?
+We respond quickly and operate with zero friction.
+📩 Email
+hello@truman-technologies.com 
+🌐 Website
+www.truman-technologies.com
+🔗 LinkedIn
+www.linkedin.com/company/trumantechnologies 
+________________________________________
+⭐ Work With Us — Anywhere, Anytime
+We support clients across multiple regions and time zones, offering global capability with a modern, collaboration-first approach.
+Remote, hybrid, onsite — we flex to fit your operating model.
+________________________________________
+⭐ Let’s Start the Conversation
+From startups building their first engineering teams to enterprises rethinking their digital future — Truman brings the talent, technology, and intelligence to help you move with confidence.
+Truman Technologies - Built Different. Built for the Future.
+Inquiry Form Section (Right side of the contact us)
+Have a Question? Tell Us How We Can Help.
+Whether you’re looking for talent, exploring a project, or need guidance on your technology roadmap — share a few details and our team will get back to you shortly.
+Inquiry Form
+Full Name
+Enter your name
+Email Address
+We’ll use this to reach you
+Phone Number (optional)
+If you prefer a quicker response
+Company Name
+Who do we have the pleasure of speaking with?
+What are you looking for?
+(Dropdown)
+●	Hire Talent
+●	Start a Technology Project
+●	Request a Consultation
+●	Learn About Our Services
+●	Partnership Inquiry
+●	Other
+How can we help?
+(Textarea)
+Tell us a little about your needs, challenges, or goals.
+Submit Button
+Send Inquiry
+We typically respond within 24 hours.
+Chat Bot on right down corner
+Purpose of the Chat Bot
+Bottom-right chat bot should act as:
+●	Lead Capture – short path to “Talk to Truman”
+●	Quick Help – route people to Talent / Services / TruDefender info
+●	Triage – collect basic context before a human steps in
+Think of it as a smart front desk for the website.
+What It’s Called
+Truman Assistant
+“Ask us anything about talent, tech, or AI.
+

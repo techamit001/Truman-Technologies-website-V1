@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-poppins: 'Poppins', sans-serif;
+  --font-family-inter: 'Inter', sans-serif;
+
+  --color-brand-aqua: #14F1E0;
+  --color-brand-blue: #207BFF;
+  --color-brand-violet: #7A2FFF;
+  --color-brand-navy: #0E1A2B;
+  --color-brand-charcoal: #1A1A1A;
+  --color-brand-cloud: #F3F5F7;
+
+  --radius-xl: 12px;
+  --radius-2xl: 18px;
+  --radius-3xl: 24px;
+}
+
+body {
+  font-family: var(--font-family-inter);
+  color: var(--color-brand-charcoal);
+  background: white;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-poppins);
+  font-weight: 600;
+}
+
+.btn-primary {
+  padding: 0.875rem 1.75rem;
+  border-radius: var(--radius-xl);
+  color: white;
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  transition: all 0.3s;
+  background: linear-gradient(to right, var(--color-brand-aqua), var(--color-brand-blue), var(--color-brand-violet));
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  filter: brightness(1.1);
+}
+
+.btn-secondary {
+  padding: 0.875rem 1.75rem;
+  border-radius: var(--radius-xl);
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  transition: all 0.3s;
+  background: white;
+  border: 2px solid var(--color-brand-blue);
+  color: var(--color-brand-blue);
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(to right, var(--color-brand-blue), var(--color-brand-violet));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-base {
+  background: white;
+  border-radius: var(--radius-2xl);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+}
