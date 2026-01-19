@@ -58,54 +58,71 @@ const AIIntelligence = () => {
     <div className="bg-slate-50 min-h-screen pt-20">
 
       {/* HERO */}
-      <section
-        className="relative py-28 md:py-32 text-center"
-        style={{
-          backgroundImage: "url('/images/23.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
+     <section
+  className="relative py-28 md:py-32 text-center overflow-hidden"
+  style={{
+    backgroundImage: "url('/images/23.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+  {/* Dark overlay */}
+  <div className="absolute inset-0 bg-black/20" />
+
+  <motion.div
+    initial="hidden"
+    animate="visible"
+    variants={fadeUp(0)}
+    className="relative z-10 container mx-auto px-4 flex justify-center"
+  >
+    {/* Glass Card */}
+    <div
+      className="
+        backdrop-blur-md
+        bg-white/10
+        border border-white/20
+        rounded-2xl
+        shadow-xl
+        px-6 py-8
+        md:px-10 md:py-10
+        max-w-3xl
+        text-center
+      "
+    >
+      {/* Heading */}
+      <motion.h1 variants={fadeUp(0)} className="mb-4 text-center">
+        <span className="inline-block font-bold whitespace-nowrap text-[clamp(22px,6vw,48px)] text-white">
+          AI-Driven Intelligence
+        </span>
+      </motion.h1>
+
+      {/* Subtitle */}
+      <motion.p
+        variants={fadeUp(0.2)}
+        className="text-[15px] sm:text-lg md:text-xl text-white/95"
       >
-        {/* ✅ CLEAR IMAGE OVERLAY */}
-        <div className="absolute inset-0 bg-black/20"></div>
+        Intelligence That Enhances Everything
+      </motion.p>
 
-        <div className="relative z-10 container mx-auto px-6 max-w-3xl">
-          <motion.h1
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp(0)}
-            className="text-4xl md:text-5xl font-bold mb-4 text-white"
-          >
-            AI-Driven Intelligence
-          </motion.h1>
+      {/* Description */}
+      <motion.p
+        variants={fadeUp(0.3)}
+        className="mt-4 text-[14.5px] sm:text-base md:text-lg text-white/90 leading-relaxed"
+      >
+        AI isn’t a feature here — it’s a foundation.
+        We infuse intelligence into how you hire, build, scale, and operate.
+      </motion.p>
+    </div>
+  </motion.div>
+</section>
 
-          <motion.p
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp(0.2)}
-            className="text-xl text-white/90"
-          >
-            Intelligence That Enhances Everything
-          </motion.p>
-
-          <motion.p
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp(0.3)}
-            className="text-white/90 leading-relaxed mt-4"
-          >
-            AI isn’t a feature here — it’s a foundation.  
-            We infuse intelligence into how you hire, build, scale, and operate.
-          </motion.p>
-        </div>
-      </section>
 
       {/* CONTENT */}
       <main className="container mx-auto px-6 md:px-10 py-20 max-w-5xl">
 
         <SectionBlock
           index={1}
-          image="/images/3.png"
+          image="/images/30.png"
           title="Talent Intelligence"
           subtitle="Smarter hiring from the inside out."
           bullets={[
@@ -118,7 +135,7 @@ const AIIntelligence = () => {
 
         <SectionBlock
           index={2}
-          image="/images/8.png"
+          image="/images/31.png"
           title="Engineering Intelligence"
           subtitle="Systems that learn and evolve."
           bullets={[

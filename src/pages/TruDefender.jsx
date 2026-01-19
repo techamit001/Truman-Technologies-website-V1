@@ -44,6 +44,7 @@ const TruDefender = () => {
       src="/images/TruDefender-Hero.png"
       alt="TruDefender Banner"
       className="
+      top-7
         absolute inset-0
         w-full h-full
         object-contain

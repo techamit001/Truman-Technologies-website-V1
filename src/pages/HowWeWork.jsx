@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import Button from '../components/ui/Button';
+import { Link } from "react-router-dom";
 
 const HowWeWork = () => {
     return (
@@ -110,7 +111,11 @@ const HowWeWork = () => {
                     <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
                         We don't deliver and disappear — we partner and evolve with you.
                     </p>
-                    <Button variant="primary">Start Your Transformation</Button>
+                    <Link to="/contact">
+      <Button variant="primary">
+        Start Your Transformation
+      </Button>
+    </Link>
                 </div>
             </section>
         </div>

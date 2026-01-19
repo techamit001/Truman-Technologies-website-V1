@@ -56,46 +56,66 @@ const DevOps = () => {
     <div className="bg-slate-50 min-h-screen pt-20">
 
       {/* HERO SECTION */}
-      <section
-        className="relative py-28 md:py-32 text-white text-center"
-        style={{
-          backgroundImage: "url('/images/23.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
+     <section
+  className="relative py-28 md:py-32 text-white text-center overflow-hidden"
+  style={{
+    backgroundImage: "url('/images/23.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+  <div className="absolute inset-0 bg-black/45" />
+
+  <motion.div
+    initial="hidden"
+    animate="visible"
+    variants={fadeUp(0)}
+    className="relative z-10 container mx-auto px-4 flex justify-center"
+  >
+    {/* Glass Card */}
+    <div
+      className="
+        backdrop-blur-md
+        bg-white/10
+        border border-white/20
+        rounded-2xl
+        shadow-xl
+        px-6 py-8
+        md:px-10 md:py-10
+        max-w-3xl
+        text-center
+      "
+    >
+      {/* Heading */}
+      <motion.h1
+        variants={fadeUp(0)}
+        className="mb-4 text-center"
       >
-        <div className="absolute inset-0 bg-black/45"></div>
+        <span className="inline-block font-bold whitespace-nowrap text-[clamp(22px,6vw,48px)]">
+          DevOps, Cloud & Automation
+        </span>
+      </motion.h1>
 
-        <div className="relative z-10 container mx-auto px-6 max-w-3xl">
-          <motion.h1 
-            initial="hidden" 
-            animate="visible" 
-            variants={fadeUp(0)}
-            className="text-4xl md:text-5xl font-bold mb-4"
-          >
-            DevOps, Cloud & Automation
-          </motion.h1>
+      {/* Subtitle */}
+      <motion.p
+        variants={fadeUp(0.2)}
+        className="text-[15px] sm:text-lg md:text-xl mb-4 text-white/95"
+      >
+        Ship Faster. Scale Smarter. Operate Fearlessly.
+      </motion.p>
 
-          <motion.p 
-            initial="hidden" 
-            animate="visible" 
-            variants={fadeUp(0.2)}
-            className="text-lg md:text-xl mb-4"
-          >
-            Ship Faster. Scale Smarter. Operate Fearlessly.
-          </motion.p>
+      {/* Description */}
+      <motion.p
+        variants={fadeUp(0.4)}
+        className="text-[14.5px] sm:text-base md:text-lg text-white/90 leading-relaxed"
+      >
+        Great engineering isn’t about luck — it’s about systems.
+        We help teams automate, optimize, and innovate across the entire software lifecycle.
+      </motion.p>
+    </div>
+  </motion.div>
+</section>
 
-          <motion.p 
-            initial="hidden" 
-            animate="visible" 
-            variants={fadeUp(0.4)}
-            className="text-white/90 leading-relaxed"
-          >
-            Great engineering isn’t about luck — it’s about systems.
-            We help teams automate, optimize, and innovate across the entire software lifecycle.
-          </motion.p>
-        </div>
-      </section>
 
       {/* CONTENT SECTIONS */}
       <main className="container mx-auto px-6 md:px-10 py-16 max-w-6xl">

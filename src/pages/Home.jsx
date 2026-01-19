@@ -9,8 +9,8 @@ const Home = () => {
     return (
         <div className="w-full overflow-x-hidden">
 
-           {/* 1. HERO SECTION */}
-<section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
+          {/* 1. HERO SECTION */}
+<section className="relative min-h-screen w-full flex items-center justify-center overflow-hidden pt-20 md:pt-0">
 
     {/* Background Video */}
     <div className="absolute inset-0 w-full h-full z-0">
@@ -24,17 +24,14 @@ const Home = () => {
             <source src="/images/BG New Truman website Video.mp4" type="video/mp4" />
         </video>
 
-        {/* Overlay (unchanged) */}
+        {/* Overlay */}
         <div className="absolute inset-0 bg-white/25 backdrop-blur-[5px]"></div>
     </div>
 
     {/* Content */}
     <div className="relative z-10 container mx-auto px-6 text-center">
 
-        {/* ===============================
-            ✅ GLASS BACKGROUND (ONLY ADDITION)
-            Text + buttons ke peeche
-        =============================== */}
+        {/* Glass Card */}
         <div
             className="
                 inline-block
@@ -42,8 +39,9 @@ const Home = () => {
                 backdrop-blur-xl
                 border border-white/30
                 rounded-2xl
-                px-6 md:px-10
-                py-8 md:py-10
+                px-5 py-7
+                sm:px-8 sm:py-10
+                md:px-10 md:py-12
                 shadow-2xl
             "
         >
@@ -53,10 +51,10 @@ const Home = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
-                className="font-bold mb-6 leading-tight text-center w-full text-white"
-                style={{
-                    fontSize: "clamp(1rem, 2.2vw + 0.5rem, 3rem)"
-                }}
+                className="
+                    font-bold leading-tight text-center w-full text-white mb-6
+                    text-2xl sm:text-3xl md:text-4xl lg:text-5xl
+                "
             >
                 <span className="block md:inline">
                     Modern Talent | Smarter Tech
@@ -74,7 +72,7 @@ const Home = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className="text-xl md:text-2xl text-white/80 mb-10 max-w-3xl mx-auto"
+                className="text-base sm:text-lg md:text-xl text-white/80 mb-8 max-w-3xl mx-auto"
             >
                 We help companies build high-performing teams, modernize their technology,
                 and accelerate AI-led transformation.
@@ -85,7 +83,7 @@ const Home = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
-                className="flex flex-col md:flex-row justify-center gap-4"
+                className="flex flex-col sm:flex-row justify-center gap-4"
             >
                 <Link to="/contact">
                     <Button variant="primary">Get Talent</Button>
@@ -99,6 +97,7 @@ const Home = () => {
         </div>
     </div>
 </section>
+
 
 
           {/* 2. ABOUT TRUMAN SECTION */}

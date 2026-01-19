@@ -26,12 +26,12 @@ const Footer = () => {
                             <Linkedin size={24} />
                         </a>
 
-                        <a href="mailto:hello@truman-technologies.com"
+                        <a href="mailto:info@trumantechnologies.in"
                            className="text-white hover:text-brand-aqua transition-colors">
                             <Mail size={24} />
                         </a>
 
-                        <a href="https://truman-technologies.com" target="_blank"
+                        <a href="https://trumantechnologies.in/" target="_blank"
                            className="text-white hover:text-brand-aqua transition-colors">
                             <Globe size={24} />
                         </a>
@@ -56,12 +56,12 @@ const Footer = () => {
 
                         <li className="flex items-center space-x-3">
                             <Mail size={18} className="shrink-0" />
-                            <span className="whitespace-nowrap">hello@truman-technologies.com</span>
+                            <span className="whitespace-nowrap"> info@trumantechnologies.in</span>
                         </li>
 
                         <li className="flex items-center space-x-3">
                             <Globe size={18} className="shrink-0" />
-                            <span className="whitespace-nowrap">www.truman-technologies.com</span>
+                            <span className="whitespace-nowrap">www.trumantechnologies.in</span>
                         </li>
 
                     </ul>

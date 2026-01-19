@@ -10,7 +10,7 @@ const fadeUp = (i = 0) => ({
   },
 });
 
-// Generic block with optional background image (container-only background)
+// Generic block
 const BgBlock = ({ title, subtitle, bullets = [], bgImage, index = 0 }) => (
   <motion.section
     initial="hidden"
@@ -21,7 +21,6 @@ const BgBlock = ({ title, subtitle, bullets = [], bgImage, index = 0 }) => (
   >
     <div className="relative rounded-3xl overflow-hidden shadow-md border border-slate-100 bg-white">
 
-      {/* ✅ IMAGE MOVED TO TOP (NO BACKGROUND IMAGE USED) */}
       {bgImage && (
         <div className="w-full h-56 md:h-64 overflow-hidden">
           <img
@@ -38,7 +37,9 @@ const BgBlock = ({ title, subtitle, bullets = [], bgImage, index = 0 }) => (
         </h3>
 
         {subtitle && (
-          <p className="text-base text-gray-600 mb-4">{subtitle}</p>
+          <p className="text-base text-gray-600 mb-4">
+            {subtitle}
+          </p>
         )}
 
         {bullets.length > 0 && (
@@ -60,48 +61,67 @@ const BgBlock = ({ title, subtitle, bullets = [], bgImage, index = 0 }) => (
 
 const ITConsulting = () => {
   return (
-    <div className="bg-slate-50 min-h-screen pt-20">
+    <div className="bg-slate-50 min-h-screen overflow-x-hidden">
 
-      {/* HERO SECTION using /images/23.png */}
+      {/* HERO */}
       <section
-        className="relative py-28 md:py-32 text-white text-center overflow-hidden"
-        style={{
-          backgroundImage: "url('/images/5.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/45" />
+  className="relative py-28 md:py-32 text-white text-center overflow-hidden"
+  style={{
+    backgroundImage: "url('/images/5.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+  {/* dark overlay */}
+  <div className="absolute inset-0 bg-black/45" />
 
-        <motion.div
-          initial="hidden"
-          animate="visible"
-          variants={fadeUp(0)}
-          className="relative z-10 container mx-auto px-6 max-w-3xl"
-        >
-         <h1 className="text-3xl md:text-5xl font-bold mb-4 whitespace-nowrap">
-  IT Consulting & Managed Services
-</h1>
+  <motion.div
+    initial="hidden"
+    animate="visible"
+    variants={fadeUp(0)}
+    className="relative z-10 flex justify-center px-4"
+  >
+    {/* GLASS CARD */}
+    <div
+      className="
+        w-full
+        max-w-3xl
+        mx-auto
+        rounded-2xl
+        border border-white/20
+        bg-white/10
+        backdrop-blur-md
+        shadow-xl
+        px-6 py-8
+        sm:px-8 sm:py-10
+        md:px-10 md:py-12
+        text-center
+      "
+    >
+      <h1 className="text-3xl md:text-5xl font-bold mb-4 text-balance">
+        IT Consulting & Managed Services
+      </h1>
 
+      <p className="text-lg md:text-xl mb-3">
+        Modern Engineering for a Modern World
+      </p>
 
-          <p className="text-lg md:text-xl mb-3">
-            Modern Engineering for a Modern World
-          </p>
+      <p className="text-base md:text-lg text-white/90 leading-relaxed">
+        Technology evolves fast — your business should too.
+        Truman delivers cloud, engineering, data, automation,
+        and operational excellence so companies stay resilient and ready for what’s next.
+      </p>
 
-          <p className="text-base md:text-lg text-white/90 leading-relaxed">
-            Technology evolves fast — your business should too.
-            Truman delivers cloud, engineering, data, automation,
-            and operational excellence so companies stay resilient and ready for what’s next.
-          </p>
+      <p className="text-base md:text-lg text-white/85 mt-3">
+        We serve as your strategy partner + engineering partner + always-on support team.
+      </p>
+    </div>
+  </motion.div>
+</section>
 
-          <p className="text-base md:text-lg text-white/85 mt-3">
-            We serve as your strategy partner + engineering partner + always-on support team.
-          </p>
-        </motion.div>
-      </section>
 
       {/* MAIN CONTENT */}
-      <main className="container mx-auto px-6 md:px-10 py-16 md:py-20 max-w-6xl">
+      <main className="mx-auto max-w-6xl px-4 md:px-10 py-16 md:py-20">
 
         <BgBlock
           index={1}
@@ -222,35 +242,16 @@ const ITConsulting = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeUp(8)}
-          className="
-            mt-12 
-            text-center 
-            py-10 
-            rounded-2xl 
-            bg-gradient-to-r 
-            from-brand-aqua 
-            via-brand-blue 
-            to-brand-violet
-          "
+          className="mt-12 text-center py-10 rounded-2xl bg-gradient-to-r from-brand-aqua via-brand-blue to-brand-violet"
         >
-          <h2
-            className="
-              text-3xl 
-              md:text-4xl 
-              font-bold 
-              text-white 
-              mb-4 
-              whitespace-nowrap
-            "
-          >
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 text-balance">
             Why Truman
           </h2>
 
-          <p className="text-base md:text-lg text-white/90 leading-relaxed whitespace-nowrap">
+          <p className="text-base md:text-lg text-white/90 leading-relaxed text-balance">
             We’re the engineering layer that never slows down. Your silent backbone. Your innovation engine.
           </p>
         </motion.section>
-
       </main>
     </div>
   );

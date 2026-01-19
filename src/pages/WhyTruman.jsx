@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { CheckCircle, Zap, Users, Target, Globe, Handshake } from 'lucide-react';
 import Card from '../components/ui/Card';
 import Button from '../components/ui/Button';
+import { Link } from "react-router-dom";
+
 
 const WhyTruman = () => {
     const advantages = [
@@ -122,13 +124,21 @@ const WhyTruman = () => {
             </section>
 
             {/* CTA */}
-            <section className="py-20 bg-brand-navy text-white text-center">
-                <div className="container mx-auto px-6">
-                    <h2 className="text-4xl font-bold mb-6">This is Truman</h2>
-                    <p className="text-xl text-gray-300 mb-8">Built different. Built for the future.</p>
-                    <Button variant="primary">Partner With Us</Button>
-                </div>
-            </section>
+           <section className="py-20 bg-brand-navy text-white text-center">
+    <div className="container mx-auto px-6">
+        <h2 className="text-4xl font-bold mb-6">This is Truman</h2>
+        <p className="text-xl text-gray-300 mb-8">
+            Built different. Built for the future.
+        </p>
+
+        <Link to="/contact">
+            <Button variant="primary">
+                Partner With Us
+            </Button>
+        </Link>
+    </div>
+</section>
+
 
         </div>
     );

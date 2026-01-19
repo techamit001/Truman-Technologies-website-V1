@@ -20,7 +20,6 @@ import IndustrySolutions from "./pages/IndustrySolutions";
 import AIIntelligence from "./pages/AIIntelligence";
 
 import Loader from './components/ui/Loader';
-import TrumanAssistant from "./components/ui/TrumanAssistant";
 
 function App() {
   const [loading, setLoading] = React.useState(true);
@@ -67,8 +66,7 @@ function App() {
         {/* FOOTER */}
         <Footer />
 
-        {/* ⭐ TRUMAN CHATBOT (BOTTOM RIGHT) */}
-        <TrumanAssistant />
+       
 
       </div>
     </Router>

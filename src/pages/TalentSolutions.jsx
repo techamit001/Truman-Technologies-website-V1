@@ -64,36 +64,64 @@ const TalentSolutions = () => {
   return (
     <div className="bg-slate-50 min-h-screen pt-20">
       {/* HERO / BANNER – main image #3 in background */}
-      <section
-        className="relative py-28 md:py-32 text-white text-center overflow-hidden"
-        style={{
-          backgroundImage: "url('/images/3.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/45" />
-        <motion.div
-          initial="hidden"
-          animate="visible"
-          variants={fadeUp(0)}
-          className="relative z-10 container mx-auto px-6 max-w-3xl"
-        >
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Talent Solutions
-          </h1>
-          <p className="text-lg md:text-xl mb-3">
-            Build Teams That Build the Future.
-          </p>
-          <p className="text-base md:text-lg text-white/90 leading-relaxed">
-            Truman blends human expertise + AI-driven intelligence to help
-            companies hire smarter, move faster, and scale confidently. We
-            deliver exceptional talent across engineering, technology,
-            operations, clinical care, and enterprise functions — tailored to
-            your industry and growth stage.
-          </p>
-        </motion.div>
-      </section>
+     <section
+  className="relative py-28 md:py-32 text-white text-center overflow-hidden"
+  style={{
+    backgroundImage: "url('/images/3.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+  {/* dark overlay */}
+  <div className="absolute inset-0 bg-black/45" />
+
+  <motion.div
+    initial="hidden"
+    animate="visible"
+    variants={fadeUp(0)}
+    className="relative z-10 container mx-auto px-4 flex justify-center"
+  >
+    {/* GLASS BOX */}
+    <div
+      className="
+        backdrop-blur-md 
+        bg-white/10 
+        border border-white/20 
+        rounded-2xl 
+        px-6 py-8 
+        md:px-10 md:py-10 
+        max-w-3xl
+        text-center
+        shadow-xl
+      "
+    >
+      <h1
+  className="
+    font-bold mb-4 text-center
+    text-[clamp(22px,6vw,48px)]
+    leading-tight
+    whitespace-nowrap
+  "
+>
+  Talent Solutions
+</h1>
+
+
+      <p className="text-base sm:text-lg md:text-xl mb-3 text-white/95">
+        Build Teams That Build the Future.
+      </p>
+
+      <p className="text-sm md:text-lg text-white/90 leading-relaxed">
+        Truman blends human expertise + AI-driven intelligence to help
+        companies hire smarter, move faster, and scale confidently. We
+        deliver exceptional talent across engineering, technology,
+        operations, clinical care, and enterprise functions — tailored to
+        your industry and growth stage.
+      </p>
+    </div>
+  </motion.div>
+</section>
+
 
       {/* MAIN CONTENT */}
       <main className="container mx-auto px-6 md:px-10 py-16 md:py-20 max-w-6xl">
