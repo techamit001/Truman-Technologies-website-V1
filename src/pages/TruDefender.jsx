@@ -38,20 +38,13 @@ const TruDefender = () => {
 {/* ================= HERO SECTION ================= */}
 <section className="relative w-full overflow-hidden">
 
-  {/* IMAGE ONLY */}
-  <div className="relative w-full h-[48vh] md:h-screen bg-black">
-    <img
-      src="/images/TruDefender-Hero.png"
-      alt="TruDefender Banner"
-      className="
-      top-7
-        absolute inset-0
-        w-full h-full
-        object-contain
-        md:object-cover
-      "
-    />
-  </div>
+ <div className="relative w-full h-[48vh] md:h-screen bg-black overflow-hidden">
+  <img
+    src="/images/TruDefender-Hero.png"
+    alt="TruDefender Banner"
+   className="w-full h-full object-cover object-top"
+  />
+</div>
 
   {/* TEXT BELOW IMAGE (MOVED FROM OVERLAY) */}
   <div className="bg-white py-20 px-6 text-center">
@@ -326,7 +319,7 @@ const TruDefender = () => {
                         Schedule a consultation with our security experts and discover how TruDefender can protect your organization.
                     </p>
                     <Link to="/contact">
-                        <Button variant="primary" className="!bg-white !text-brand-navy hover:!bg-gray-100">
+                        <Button variant="primary" className="!bg-white !text-white hover:!bg-gray-100">
                             Schedule a Consultation
                         </Button>
                     </Link>

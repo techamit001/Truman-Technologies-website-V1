@@ -53,8 +53,7 @@ const Home = () => {
                 transition={{ duration: 0.8 }}
                 className="
                     font-bold leading-tight text-center w-full text-white mb-6
-                    text-2xl sm:text-3xl md:text-4xl lg:text-5xl
-                "
+                    text-2xl sm:text-3xl md:text-4xl lg:text-4xl"
             >
                 <span className="block md:inline">
                     Modern Talent | Smarter Tech
@@ -184,111 +183,136 @@ const Home = () => {
 </section>
 
 
-           {/* 3. SERVICES OVERVIEW SECTION */}
+{/* 3. SERVICES OVERVIEW SECTION */}
 <section className="py-14 bg-brand-cloud">
-    <div className="container mx-auto px-6 md:px-12">
-        <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Our Core Services</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Comprehensive solutions tailored to your industry and growth stage.
-            </p>
-        </div>
+  <div className="container mx-auto px-6 md:px-12">
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-            {/* Service 1: Talent Solutions */}
-            <Card className="hover:shadow-xl transition-shadow">
-                <div className="h-48 rounded-xl overflow-hidden mb-6 relative">
-                    <img src="/images/3.png" alt="Talent Solutions" className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 bg-white/20"></div>
-                </div>
-                <h3 className="text-2xl font-bold mb-3">Talent Solutions</h3>
-                <p className="text-gray-600 mb-4">
-                    We blend human expertise + AI intelligence to deliver exceptional tech, business, and clinical talent — fast.
-                </p>
-                <a 
-                    href="/services/talent-solutions" 
-                    className="text-brand-blue font-semibold flex items-center gap-1 hover:gap-2 transition-all"
-                >
-                    Learn More <ChevronRight size={16} />
-                </a>
-            </Card>
-
-            {/* Service 2: IT Consulting */}
-            <Card className="hover:shadow-xl transition-shadow">
-                <div className="h-48 rounded-xl overflow-hidden mb-6 relative">
-                    <img src="/images/5.png" alt="IT Consulting" className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 bg-white/20"></div>
-                </div>
-                <h3 className="text-2xl font-bold mb-3">IT Consulting & Managed Services</h3>
-                <p className="text-gray-600 mb-4">
-                    Modern engineering, cloud transformation, and automation to keep your business resilient and future-ready.
-                </p>
-                <a 
-                    href="/services/it-consulting" 
-                    className="text-brand-blue font-semibold flex items-center gap-1 hover:gap-2 transition-all"
-                >
-                    Learn More <ChevronRight size={16} />
-                </a>
-            </Card>
-
-            {/* Service 3: DevOps & Automation */}
-            <Card className="hover:shadow-xl transition-shadow">
-                <div className="h-48 rounded-xl overflow-hidden mb-6 relative">
-                    <img src="/images/23.png" alt="DevOps" className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 bg-white/20"></div>
-                </div>
-                <h3 className="text-2xl font-bold mb-3">DevOps, Cloud & Automation</h3>
-                <p className="text-gray-600 mb-4">
-                    CI/CD, Infrastructure as Code, and SRE to help engineering teams ship faster, safer, and smarter.
-                </p>
-                <a 
-                    href="/services/devops-automation" 
-                    className="text-brand-blue font-semibold flex items-center gap-1 hover:gap-2 transition-all"
-                >
-                    Learn More <ChevronRight size={16} />
-                </a>
-            </Card>
-
-            {/* Service 4: AI-Driven Intelligence */}
-            <Card className="hover:shadow-xl transition-shadow">
-                <div className="h-48 rounded-xl overflow-hidden mb-6 relative">
-                    <img src="/images/8.png" alt="AI Intelligence" className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 bg-white/20"></div>
-                </div>
-                <h3 className="text-2xl font-bold mb-3">AI-Driven Intelligence</h3>
-                <p className="text-gray-600 mb-4">
-                    Embed AI across talent, engineering, and operations to move smarter and faster.
-                </p>
-                <a 
-                    href="/services/ai-intelligence" 
-                    className="text-brand-blue font-semibold flex items-center gap-1 hover:gap-2 transition-all"
-                >
-                    Learn More <ChevronRight size={16} />
-                </a>
-            </Card>
-
-            {/* Service 5: Industry Solutions */}
-            <Card className="hover:shadow-xl transition-shadow md:col-span-2">
-                <div className="h-48 rounded-xl overflow-hidden mb-6 relative">
-                    <img src="/images/22.png" alt="Industry Solutions" className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 bg-white/20"></div>
-                </div>
-                <h3 className="text-2xl font-bold mb-3">Industry-Specific Solutions</h3>
-                <p className="text-gray-600 mb-4">
-                    Tailored solutions for Semiconductor, Healthcare, BFSI, Retail, Manufacturing, and more.
-                </p>
-                <a 
-                    href="/services/industry-solutions" 
-                    className="text-brand-blue font-semibold flex items-center gap-1 hover:gap-2 transition-all"
-                >
-                    Learn More <ChevronRight size={16} />
-                </a>
-            </Card>
-
-        </div>
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-bold mb-4">Our Core Services</h2>
+      <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+        Comprehensive solutions tailored to your industry and growth stage.
+      </p>
     </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      {/* Service 1: Talent Solutions */}
+      <Card className="hover:shadow-xl transition-shadow">
+        <div className="h-48 rounded-xl overflow-hidden mb-6 relative">
+          <img src="/images/3.png" alt="Talent Solutions" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-white/20"></div>
+        </div>
+
+        <h3 className="text-2xl font-bold mb-3">Talent Solutions</h3>
+        <p className="text-gray-600 mb-4">
+          We blend human expertise + AI intelligence to deliver exceptional tech,
+          business, and clinical talent — fast.
+        </p>
+
+        <Link
+          to="/services/talent-solutions"
+          className="text-brand-blue font-semibold flex items-center gap-1 hover:gap-2 transition-all"
+        >
+          Learn More <ChevronRight size={16} />
+        </Link>
+      </Card>
+
+      {/* Service 2: IT Consulting */}
+      <Card className="hover:shadow-xl transition-shadow">
+        <div className="h-48 rounded-xl overflow-hidden mb-6 relative">
+          <img src="/images/5.png" alt="IT Consulting" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-white/20"></div>
+        </div>
+
+        <h3 className="text-2xl font-bold mb-3">
+          IT Consulting & Managed Services
+        </h3>
+        <p className="text-gray-600 mb-4">
+          Modern engineering, cloud transformation, and automation to keep your
+          business resilient and future-ready.
+        </p>
+
+        <Link
+          to="/services/it-consulting"
+          className="text-brand-blue font-semibold flex items-center gap-1 hover:gap-2 transition-all"
+        >
+          Learn More <ChevronRight size={16} />
+        </Link>
+      </Card>
+
+      {/* Service 3: DevOps & Automation */}
+      <Card className="hover:shadow-xl transition-shadow">
+        <div className="h-48 rounded-xl overflow-hidden mb-6 relative">
+          <img src="/images/23.png" alt="DevOps & Automation" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-white/20"></div>
+        </div>
+
+        <h3 className="text-2xl font-bold mb-3">
+          DevOps, Cloud & Automation
+        </h3>
+        <p className="text-gray-600 mb-4">
+          CI/CD, Infrastructure as Code, and SRE to help engineering teams ship
+          faster, safer, and smarter.
+        </p>
+
+        <Link
+          to="/services/devops-automation"
+          className="text-brand-blue font-semibold flex items-center gap-1 hover:gap-2 transition-all"
+        >
+          Learn More <ChevronRight size={16} />
+        </Link>
+      </Card>
+
+      {/* Service 4: AI-Driven Intelligence */}
+      <Card className="hover:shadow-xl transition-shadow">
+        <div className="h-48 rounded-xl overflow-hidden mb-6 relative">
+          <img src="/images/8.png" alt="AI Intelligence" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-white/20"></div>
+        </div>
+
+        <h3 className="text-2xl font-bold mb-3">
+          AI-Driven Intelligence
+        </h3>
+        <p className="text-gray-600 mb-4">
+          Embed AI across talent, engineering, and operations to move smarter
+          and faster.
+        </p>
+
+        <Link
+          to="/services/ai-intelligence"
+          className="text-brand-blue font-semibold flex items-center gap-1 hover:gap-2 transition-all"
+        >
+          Learn More <ChevronRight size={16} />
+        </Link>
+      </Card>
+
+      {/* Service 5: Industry Solutions */}
+      <Card className="hover:shadow-xl transition-shadow md:col-span-2">
+        <div className="h-48 rounded-xl overflow-hidden mb-6 relative">
+          <img src="/images/22.png" alt="Industry Solutions" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-white/20"></div>
+        </div>
+
+        <h3 className="text-2xl font-bold mb-3">
+          Industry-Specific Solutions
+        </h3>
+        <p className="text-gray-600 mb-4">
+          Tailored solutions for Semiconductor, Healthcare, BFSI, Retail,
+          Manufacturing, and more.
+        </p>
+
+        <Link
+          to="/services/industry-solutions"
+          className="text-brand-blue font-semibold flex items-center gap-1 hover:gap-2 transition-all"
+        >
+          Learn More <ChevronRight size={16} />
+        </Link>
+      </Card>
+
+    </div>
+  </div>
 </section>
+
 
 
             {/* 4. HOW WE WORK SECTION */}

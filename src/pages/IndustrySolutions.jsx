@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+
 
 const fadeUp = (i = 0) => ({
   hidden: { opacity: 0, y: 20 },
@@ -304,12 +306,13 @@ const IndustrySolutions = () => {
             Let’s build technology that fits your world — not the other way around.
           </p>
 
-          <a
-            href="/contact"
-            className="inline-block bg-brand-aqua text-brand-navy px-8 py-4 rounded-xl font-semibold shadow-md hover:bg-white transition"
-          >
-            Talk to Our Team
-          </a>
+          <Link
+  to="/contact"
+  className="inline-block bg-brand-aqua text-brand-navy px-8 py-4 rounded-xl font-semibold shadow-md hover:bg-white transition"
+>
+  Talk to Our Team
+</Link>
+
         </motion.div>
 
       </main>

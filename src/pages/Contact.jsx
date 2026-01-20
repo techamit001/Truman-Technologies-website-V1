@@ -66,8 +66,8 @@ const Contact = () => {
             {/* CONTACT FORM SECTION */}
             <section className="relative py-24">
                 <div className="absolute inset-0 z-0">
-                    <img src="/images/contactimg.png" alt="Contact" className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 bg-white/20 backdrop-blur-[6px]"></div>
+                    {/* <img src="/images/contactimg.png" alt="Contact" className="w-full h-full object-cover" /> */}
+                    <div className="absolute inset-0  backdrop-blur-[6px]"></div>
                 </div>
 
                 <div className="relative z-10 container mx-auto px-6 md:px-12">
@@ -99,7 +99,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-500 mb-1">Visit Us</p>
-                                        <p className="font-semibold text-lg">www.truman-technologies.com</p>
+                                        <p className="font-semibold text-lg">www.trumantechnologies.in</p>
                                     </div>
                                 </div>
 
