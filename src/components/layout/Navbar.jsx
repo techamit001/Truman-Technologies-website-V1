@@ -195,7 +195,7 @@ const Navbar = () => {
                         )
                     )}
 
-                    <Link to="/contact">
+                    <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                         <Button variant="primary" className="w-full">
                             Get In Touch
                         </Button>

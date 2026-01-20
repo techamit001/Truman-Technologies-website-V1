@@ -37,14 +37,18 @@ const TruDefender = () => {
 
 {/* ================= HERO SECTION ================= */}
 <section className="relative w-full overflow-hidden">
-
- <div className="relative w-full h-[48vh] md:h-screen bg-black overflow-hidden">
-  <img
-    src="/images/TruDefender-Hero.png"
-    alt="TruDefender Banner"
-   className="w-full h-full object-cover object-top"
-  />
-</div>
+  {/* Container height ko mobile pe 'auto' aur laptop pe fixed rakhein */}
+  <div className="relative w-full h-auto md:h-screen bg-black overflow-hidden">
+    <img
+      src="/images/TruDefender-Hero.png"
+      alt="TruDefender Banner"
+      className="
+        w-full h-full 
+        object-contain md:object-cover 
+        object-top
+      "
+    />
+  </div>
 
   {/* TEXT BELOW IMAGE (MOVED FROM OVERLAY) */}
   <div className="bg-white py-20 px-6 text-center">
